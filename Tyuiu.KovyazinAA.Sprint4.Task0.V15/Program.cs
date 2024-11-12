@@ -25,8 +25,9 @@ namespace Tyuiu.KovyazinAA.Sprint4.Task0.V15
             Console.WriteLine("* Исходный массив:                                                        *");
             for (int i = 0; i <= nums.Length - 1; i++)
             {
-                Console.WriteLine(nums[i]);
+                Console.Write(nums[i]+"\t");
             }
+            Console.WriteLine();
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
